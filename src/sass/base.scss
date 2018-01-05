@@ -1,12 +1,140 @@
-*{
-	margin:0;
-	padding:0;
-}
 
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div { margin:0; padding:0; font-size:12px; }
+
+fieldset, img { border:none; }
+
+img{vertical-align: top;}
+
+em,i,strong,b{ font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; } 
+
+a {text-decoration:none; color: black; }
+
+.ind{text-indent: 2em;}
+
+.noborder{border: none;}
+
+.nobg{background:none;}
+
+.floatL{float: left;}
+
+.floatR{float: right;}
+
+//头部
 .h-box{
 	height:125px;
-	width:1263px;
+	width:100%;
 	border:1px solid red;
 	background:light;
 	margin-bottom:5px;
 }
+
+.h-box .header{
+	height: 125px;
+	width: 996px;
+	
+	margin-left: 135px;
+}
+.h-box .header .left{
+	height: 125px;
+	width: 645px;
+	
+	float: left;
+
+}
+.h-box .header .left h1{
+	width: 160px;
+	height: 125px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	float: left;
+}
+.h-box .header .left h1 a{
+	display: block;
+	width: 160px;
+	height: 90px;
+
+	background: url(../images/logo.png) no-repeat center center;
+	text-align: center;
+	font-size: 40px;
+}
+.h-box .header .left h1 a span{
+	display: none;
+}
+.h-box .header .left ul{
+	width: 485px;
+	float: left;
+	height: 125px;
+	box-sizing: border-box;
+	padding-top: 35px;
+	
+}
+.h-box .header .left ul li{
+	float: left;
+	width: 160px;
+	font-size: 16px;
+	color: #6dc4df;
+	box-sizing: border-box;
+	padding: 0px 35px;
+	margin-top: 20px;
+}
+.h-box .header .left ul li:nth-child(2){
+	border-left: 1px solid #6dc4df;
+	border-right: 1px solid #6dc4df;
+}
+.h-box .header .left ul li a{
+	color: #6dc4df;
+	
+}
+
+
+.h-box .header .right{
+	height: 125px;
+	width: 351px;
+	padding-left: 150px;
+	float: left;
+	box-sizing: border-box;
+}
+.h-box .header .right .top{
+	height: 40px;
+	width: 351px;
+}
+.h-box .header .right .top ul{
+	margin-top: 20px;
+}
+.h-box .header .right .top ul li{
+	float: left;
+	width: 49px;
+	text-align: right;
+
+}
+.h-box .header .right .top ul li:nth-child(1){
+	background: url(../images/ct.png) no-repeat 0px 0px;
+}
+.h-box .header .right .top ul li:nth-child(2){
+	background: url(../images/cc.png) no-repeat 0px 0px;
+}
+
+.h-box .header .right .top ul li a{
+	color:#6dc4df;
+}
+.h-box .header .right .footer{
+	width: 200px;
+	height: 85px;
+	text-align: center;
+}
+.h-box .header .right .footer span{
+	color: #6dc4df;
+	height: 25px;
+	line-height: 25px;
+}
+.h-box .header .right .footer input{
+	width: 105px;
+	height: 22px;
+	background: url(../images/sc.png);
+}
+
+
+
+//网页底部
