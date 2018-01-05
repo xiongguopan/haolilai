@@ -2,9 +2,63 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>登陆</title>
+	<link rel="stylesheet" type="text/css" href="/css/base.css">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/login.css">
 </head>
 <body>
-	11111
+	<div class="header"></div>
+
+	<div class="main">
+		<fieldset>
+			<legend>用户登录</legend>
+		</fieldset>
+		<form>
+			<dl class="admin">
+				<dt>用户名</dt>
+				<dd>
+					<input class="username" type="text" placeholder="手机|邮箱"  >
+					<br/>
+				</dd>
+					
+			</dl>
+			<dl class="pasd">
+				<dt>密&nbsp;&nbsp;码</dt>
+				<dd>
+					<input  type="password" class="pwd" placeholder="请输入6-20位字符" />
+
+					
+					<a href="#">忘记密码</a>
+					<br/>
+				</dd>
+			</dl>
+			<dl class="yanzheng">
+				<dt>验证码</dt>
+				<dd>
+					<input class="bg" type="text">
+					<input type="text" class="yzm">
+
+					<br/>
+
+				</dd>	
+			</dl>	
+
+			<div class="dl">
+				<a href="#" class="login">登录</a>
+				<a href="#">免费注册</a>
+			</div>
+
+		</form>
+
+
+
+	</div>
+
+	<div class="footer"></div>
+
+	<script src="/lib/requirejs/require.js" data-main="/js/list"></script>
+	
+
 </body>
 </html>

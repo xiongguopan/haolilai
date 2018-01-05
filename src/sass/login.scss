@@ -1,0 +1,134 @@
+
+.main{
+	height: 335px;
+	width: 996px;
+	margin: 0 auto;
+}
+
+.main fieldset{
+	border: none;
+	border-top: dashed 1px #adadad;
+	text-align: center;
+	
+}
+.main fieldset legend{
+	font-size: 20px;
+	color: #adadad;
+}
+
+.main form{
+	height: 200px;
+	width: 310px;
+	margin: 0 auto;
+	margin-top: 60px;
+
+}
+.main form dl{
+	width: 310px;
+	height: 41px;
+	margin-bottom: 5px;
+}
+
+.main form .admin dt{
+	width: 70px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 41px;
+	float: left;
+	background: #ededed;
+	margin-right: 5px;
+}
+.main form .admin dd{
+	height: 40px;
+}
+.main form .admin dd input{
+	height: 38px;
+	width: 235px;
+	border: none;
+	background: #ededed;
+}
+
+//
+.main form .pasd dt{
+	width: 70px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 41px;
+	float: left;
+	background: #ededed;
+	margin-right: 5px;
+}
+.main form .pasd dd{
+	height: 40px;
+}
+.main form .pasd dd input{
+	height: 38px;
+	width: 185px;
+	border: none;
+	float: left;
+	background: #ededed;
+}
+.main form .pasd dd a{
+	display: block;
+	width: 50px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	background: #ededed;
+}
+//
+.main form .yanzheng dt{
+	width: 70px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 41px;
+	float: left;
+	background: #ededed;
+	margin-right: 5px;
+}
+.main form .yanzheng dd{
+	height: 40px;
+	float: left;
+	width: 235px;
+	background: #ededed;
+}
+.main form .yanzheng dd .bg {
+	height: 38px;
+	width: 134px;
+	border: none;
+	background: #ededed;
+}
+.main form .yanzheng dd .yzm {
+	height: 38px;
+	width: 86px;
+	border: none;
+	float: left;
+	background: #ededed;
+}
+
+.main form  .dl{
+	width: 310px;
+	height: 41px;
+}
+.main form .dl a{
+	display:block;
+	height: 41PX;
+	
+	float: left;
+	text-align: center;
+	line-height: 41px;
+}
+.main form .dl a:first-child{
+	background: #87d0e3;
+	width: 195px;
+	margin-right: 10px;
+}
+.main form .dl a:last-child{
+	background: #ededed;
+	width: 100px;
+	
+}
