@@ -132,9 +132,116 @@ a {text-decoration:none; color: black; }
 .h-box .header .right .footer input{
 	width: 105px;
 	height: 22px;
-	background: url(../images/sc.png);
+	background: url(../images/sc.png) no-repeat left center;
 }
 
 
 
 //网页底部
+
+.f-box {
+	width: 100%;
+	min-height: 215px;
+	margin-top: 5px;
+}
+.f-box .footer{
+	min-height: 125px;
+	width: 996px;	
+	margin-left: 135px;
+	border: 1px solid ;
+
+}
+.f-box .footer .top{
+	width: 996px;
+	min-height: 37px;
+	border-bottom: 1px solid #ededed;
+}
+.f-box .footer .top h2{
+	background-color: #ededed;
+	height: 25px;
+	line-height: 25px;
+	color: #626262;
+}
+.f-box .footer .top h2 span{
+	width: 18px;
+	height: 10px;
+	background: url(../images/tp1.png) no-repeat 0px 0px;
+}
+.f-box .footer .top .nav{
+	height: 127px;
+	width: 996px;
+	min-height: 0px;
+	display: none;
+	
+}
+
+.f-box .footer .top .nav .n-box{
+	height: 127px;
+	width: 996px;
+	background: #ededed;
+	display: flex;
+	flex-direction: row;
+	color: #626262;
+	justify-content: space-around;
+}
+.f-box .footer .top .nav dl{
+	width: 105px;
+	background: url(../images/zc.png) no-repeat left top;
+}
+.f-box .footer .top .nav dl dt{
+	width: 105px;
+	
+	font-size: 22px;
+	
+}
+.f-box .footer .top .nav dl dd{
+	line-height: 18px;
+	margin-top: 12px;
+
+}
+
+.f-box .footer .bottom{
+	height: 175px;
+	width: 996px;
+}
+.f-box .footer .bottom .left{
+	height: 175px;
+	width: 300px;
+	float: left;
+	font-size: 12px;
+	box-sizing: border-box;
+	padding-top: 14px;
+	color: #898989;
+}
+.f-box .footer .bottom .left p:first-of-type{
+	line-height: 18px;
+	margin-bottom: 12px;
+}
+.f-box .footer .bottom .left p:last-of-type{
+	line-height: 18px;
+	margin-top: 12px;
+}
+
+.f-box .footer .bottom .right{
+	height: 175px;
+	width: 105px;
+	float: right;
+	padding-top: 14px;
+	color: #898989;
+	box-sizing: border-box;
+}
+
+.f-box .footer .bottom .right span{
+	line-height: 18px;
+	margin-bottom: 12px;
+}
+
+.f-box .footer .bottom .right p{
+	height: 175px;
+
+}
+.f-box .footer .bottom .right p img{
+	width:33px;
+	height: 29px;
+	 
+}
