@@ -2,34 +2,128 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>首页</title>
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+	
+
 	<script src="lib/requirejs/require.js" data-main="js/index"></script>
+	<script type="text/javascript" src="lib/jquery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 	
 </head>
 <body>
 	<div class="header"></div>
+	<!-- mian  -->
+	<!-- 轮播图 -->
+	<div class="main">
+		<!-- 轮播图部分 -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- 小圆点 -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+		       <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+		  </ol>
 
-	<div class="m-box">
-		<div class="main">
-			<div class="banner">
-				<ul>
-					<li><a href="#"><img src="../images/1456986961694221493.jpg"></a></li>
+		  <!-- 轮播图片 -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		     <a href="#"> <img src="/images/2.jpg" alt="图片已损坏"></a>
+		    </div>
+		    <div class="item">
+		    <a href="#">   <img src="/images/3.jpg" alt="图片已损坏"></a>
+		    </div>
+		    <div class="item">
+		      <a href="#"> <img src="/images/5.jpg" alt="图片已损坏"></a>
+		    </div>
+		    <div class="item">
+		      <a href="#"> <img src="/images/7.jpg" alt="图片已损坏"></a>
+		    </div>
+		    <div class="item">
+		       <a href="#"><img src="/images/8.jpg" alt="图片已损坏"></a>
+		    </div>
+		    <div class="item">
+		      <a href="#"> <img src="/images/13.jpg" alt="图片已损坏"></a>
+		    </div>
+
+
+		  </div>
+
+		  <!-- 点击左，右轮播 -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+	</div><!--  轮播图的结束标签 -->
+
+
+	<!-- 分类 -->
+	<div class="list">
+		<dl>
+			<dt><a href="#"><img src="../images/6.jpg"></a></dt>
+			<dd><a href="#">经典系列<br/>CLASSIC SERIEC</a></dd>
+		</dl>
+		<dl>
+			<dt><a href="#"><img src="../images/9.jpg"></a></dt>
+			<dd><a href="#">法式系列<br/>FRENCH SERIES</a></dd>
+		</dl>
+		<dl class="dl3">
+			<dt><a href="#"><img src="../images/1.jpg"></a></dt>
+			<dd><a href="#">冰激凌系列<br/>GELATO SERIEC</a></dd>
+		</dl>
+
+		</div><!--  list的结束标签 -->
+
+<!-- audio -->
+		<div class="audio">
+			<div class="left">
+				<img src="/images/4.jpg">
+
+			</div>
+			<div class="right">
+				<video poster="http://7xpw1x.com1.z0.glb.clouddn.com/shouyeok.jpg" controls="controls" width="745px" 
+	height="420px" >
+					<source src="http://7xpw1x.com1.z0.glb.clouddn.com/2he1.mp4" type="video/mp4">
 					
-					
-				</ul>
+				</video>
+
 			</div>
 
 
-		</div>
+		</div>	<!--  audio的结束标签 -->
+
+<!-- 展示 show -->
+		<div class="show">
+			<dl>
+				<dt><a href="#"><img src="../images/11.jpg"></a></dt>	
+				<dd><a href="#">配送包 DELIVERY PACKAGE</a></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="../images/12.jpg"></a></dt>	
+				<dd><a href="#">店面形象 STORE IMGES</a></dd>
+			</dl>
+			<dl class="dl3">
+				<dt><a href="#"><img src="../images/10.jpg"></a></dt>	
+				<dd><a href="#">配送服务 DELIVERY SERVICE</a></dd>
+			</dl>
+
+		</div><!--  show的结束标签 -->
 
 
 
+	</div> <!--  mian的结束标签 -->
 
-
-	</div>
-
+<!-- 底部 -->
 	<div class="footer"></div>
 
 </body>

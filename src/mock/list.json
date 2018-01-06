@@ -3,7 +3,7 @@
 	"res_error" : "",
 	"res_body" : {
 		"data" : [
-			{"id":1, "title":"标题1", "price":111},
+			{"id":1, "img":"/images/9.jpg" ,"title":"标题1", "price":111},
 			{"id":2, "title":"标题2", "price":1211},
 			{"id":3, "title":"标题3", "price":311},
 			{"id":4, "title":"标题4", "price":411},

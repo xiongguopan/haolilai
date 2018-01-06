@@ -1,0 +1,86 @@
+.main{
+	height: 500px;
+	width: 996px;
+	margin: 0 auto;
+}
+
+.main fieldset{
+	border: none;
+	border-top: dashed 1px #adadad;
+	text-align: center;
+
+}
+.main fieldset legend{
+	font-size: 20px;
+	color: #adadad;
+}
+
+.main form {
+	width: 310px;
+	height: 350px;
+	margin:auto;
+	margin-top: 40px;
+}
+
+.main form p{
+	height: 42px;
+	width: 310px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #626262;
+	text-align: center;
+	//border: 1px solid red;
+}
+
+.main form p span{
+	display: block;
+	float: left;
+	height: 42px;
+	width: 84px;
+	margin-right: 5px;
+	line-height: 38px;
+	background: #ededed;
+	
+}
+.main form p input {
+	float: left;
+	display: block;
+	height: 39px;
+	width: 221px;
+	border: none;
+	background: #ededed;
+}
+.main form p .yz{
+	width: 156px;
+	border: none;
+}
+.main form p .yzm1{
+	width: 64px;
+	border: none;
+}
+
+.main form p .tel{
+	width: 100px;
+	border: none;
+}
+.main form p .yzm2{
+	width:120px;
+	border: none;
+}
+.main form p .ck{
+	width: 15px;
+	height: 20px;
+	padding-left: 10px;
+	
+}
+.main form p  a{
+	color: #626262;
+}
+.main form p  a:hover{
+	color: #6bc5e0;
+}
+
+.main form p .btn{
+	width: 310px;
+	background: #6bc5e0;
+}

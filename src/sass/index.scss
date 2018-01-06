@@ -1,18 +1,129 @@
-.m-box{
-	width: 100%;
-	height: 1486px;
+a{
+	text-decoration: none;
 }
 
-.m-box .main{
-	width: 996px;
-	height: 1486px;
-	margin: 0 auto;
-	border: 1px solid;
-}
-.m-box .main .banner{
+ .main{
+ 	width: 996px;
+ 	min-height: 500px;
+ 	margin: 0 auto;
+ 	//border: 1px solid red;
+ }
+
+
+ .main .carousel{
 	width: 996px;
 	height: 450px;
 	margin-bottom: 10px;
+}
 
+ .main .list{
+ 	height: 270px;
+ 	width: 996px;
+ 	margin-bottom: 10px;
+ }
 
+  .main .list dl{
+	height: 270px;
+	width: 325px;
+	float: left;
+	margin-right: 10px;
+
+  }
+
+.main .list .dl3{
+  	margin-right: 0px;
+  }
+.main .list dl dt{
+	height: 220px;
+	width: 325px;
+	overflow: hidden;
+    }
+.main .list dl dt:hover img{
+	transform: scale(1.1);
+
+}
+1
+
+.main .list dl dd{
+	height: 50px;
+	width: 325px;
+	
+}
+.main .list dl dd a{
+	list-style: none;
+	display: block;
+	height: 50px;
+	width: 325px;
+	padding-left: 15px;
+	padding-top: 10px;
+	line-height: 17px;
+	box-sizing: border-box;
+	background-color: #87d0e3;
+	color: white;
+	text-decoration: none;
+}
+
+.main .audio{
+	width: 996px;
+	height: 420px;
+	margin-bottom: 10px;
+}
+.main .audio .left{
+	width: 240px;
+	height: 420px;
+	float: left;
+	margin-right: 10px;
+}
+.main .audio .right{
+	width: 745px;
+	height: 420px;
+	float: left;
+	
+}
+
+.main .show{
+ 	height: 270px;
+ 	width: 996px;
+ 	margin-bottom: 10px;
+ }
+
+  .main .show dl{
+	height: 270px;
+	width: 325px;
+	float: left;
+	margin-right: 10px;
+
+  }
+
+.main .show .dl3{
+  	margin-right: 0px;
+  }
+.main .show dl dt{
+	height: 220px;
+	width: 325px;
+	overflow: hidden;
+    }
+.main .show dl dt:hover img{
+	transform: scale(1.1);
+
+}
+1
+
+.main .show dl dd{
+	height: 50px;
+	width: 325px;
+	
+}
+.main .show dl dd a{
+	list-style: none;
+	display: block;
+	height: 50px;
+	width: 325px;
+	padding-left: 15px;
+	padding-top: 10px;
+	line-height: 35px;
+	box-sizing: border-box;
+	background-color: #87d0e3;
+	color: white;
+	text-decoration: none;
 }

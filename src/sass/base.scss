@@ -46,7 +46,7 @@ a {text-decoration:none; color: black; }
 .h-box .header .left h1{
 	width: 160px;
 	height: 125px;
-	padding-top: 30px;
+	
 	box-sizing: border-box;
 	float: left;
 }
@@ -54,7 +54,7 @@ a {text-decoration:none; color: black; }
 	display: block;
 	width: 160px;
 	height: 90px;
-
+	text-decoration: none;
 	background: url(../images/logo.png) no-repeat center center;
 	text-align: center;
 	font-size: 40px;
@@ -62,6 +62,8 @@ a {text-decoration:none; color: black; }
 .h-box .header .left h1 a span{
 	display: none;
 }
+
+
 .h-box .header .left .ul1{
 	width: 485px;
 	float: left;
@@ -82,6 +84,7 @@ a {text-decoration:none; color: black; }
 }
 .h-box .header .left .ul1 li a{
 	color: #6dc4df;
+	text-decoration: none;
 }
 .h-box .header .left .ul1 li:first-child{
 	border-right: 1px solid #6dc4df;}
@@ -91,7 +94,7 @@ a {text-decoration:none; color: black; }
 }
 
 
-.h-box .header .left .ul2{
+/*.h-box .header .left .ul2{
 	width: 150px;
 	height: 200px;
 	display: none;
@@ -115,7 +118,7 @@ a {text-decoration:none; color: black; }
 	display: block;
 }
 
-
+*/
 .h-box .header .right{
 	height: 125px;
 	width: 351px;
@@ -187,7 +190,12 @@ a {text-decoration:none; color: black; }
 	background-color: #ededed;
 	height: 25px;
 	line-height: 25px;
-	color: #626262;
+
+}
+.f-box .footer .top h2 a{
+	 color: #626262;
+	 text-decoration: none;
+	 font-size: 12px
 }
 .f-box .footer .top h2 span{
 	width: 18px;

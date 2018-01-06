@@ -2,16 +2,56 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>登陆</title>
 	<link rel="stylesheet" type="text/css" href="/css/base.css">
+	<link rel="stylesheet" type="text/css" href="/css/register.css">
 	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="lib/jquery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 	
 </head>
 <body>
 	<div class="header"></div>
 
 	<div class="main">
-		
+	<fieldset>
+		<legend>用户注册</legend>
+	</fieldset>	
+	<form class="zc">
+		<p>
+			<span>手机号</span>
+			<input type="text" class="phone">
+		</p>
+		<p>
+			<span>验证码</span>
+			<input type="text" class="yz">
+			<input type="text" class="yzm1">
+		</p>
+		<p>
+			<span>短信验证码</span>
+			<input type="text" class="tel">
+			<input type="text" class="yzm2">
+		</p>
+		<p>
+			<span>密码</span>
+			<input type="password" class="pwd">			
+		</p>	
+		<p>
+			<span>确认密码</span>
+			<input type="password" class="pwd1">			
+		</p>
+		<p>
+			<input type="checkbox" class="ck">
+			<a href="#">我已阅读并接受服务条款</a>		
+		</p>
+		<p><input type="button" value="注册" class="btn"/></p>
+	</form>
+	
+
+
+
 
 		
 	</div>
