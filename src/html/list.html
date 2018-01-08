@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	
 	<title>列表</title>
 	<link rel="stylesheet" type="text/css" href="/css/list.css">
 	<link rel="stylesheet" type="text/css" href="/css/base.css">
 
+	
 	<script src="/lib/requirejs/require.js" data-main="/js/list"></script>
 
 </head>
@@ -18,11 +20,13 @@
 
 	<script type="text/html" id="list_template">
 		{{each products as product}}
-		<div>
-			<div class="img">{{product.img}}</div>
+		<div class="li">
+			<!-- <div class="img">{{product.img}}</div> -->
+			<div class="img"><img src="{{product.img}}"></div>
 			<div class="title">{{product.title}}</div>
+			<div class="dd">{{product.dd}}</div>
 			<div class="price">{{product.price}}</div>
-			<div class="add">加入购物车</div>
+			
 		</div>
 		{{/each}}
 	</script>

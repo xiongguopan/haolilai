@@ -20,7 +20,16 @@ a {text-decoration:none; color: black; }
 .floatL{float: left;}
 
 .floatR{float: right;}
-
+.clear:after{
+	display: block;
+	clear: both;
+	content: ".";
+	visibility: hidden;
+	height: 0;
+}
+.clear{
+	zoom:"1";
+}
 //头部
 .h-box{
 	height:125px;

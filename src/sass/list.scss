@@ -1,9 +1,60 @@
 
+.main{
 
-
-.mian{
+	min-height: 500px;
 	width: 996px;
-	min-height: 10px;
+	margin: 0 auto;
+	margin-bottom: 15px;
 	border: 1px solid red;
+	overflow: hidden;
+
+}
+
+.main .li{
+	width: 325px;
+	height: 325px;
+	font-size: 14px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 7px;
+	overflow: hidden;
+	position: relative;
 	
 }
+.main .li div {
+	background-color:#6dc4df;
+	font-size: 12px;
+	color: white;
+	
+}
+.main .li .img{
+	width: 325px;
+	height: 270px;
+	overflow: hidden;
+}
+.main .li .img:hover img{
+	transform: scale(1.1);
+	
+}
+
+.main .li .title{
+	height: 25px;
+	line-height: 25px;
+	width: 325px;
+	
+}
+.main .li .dd{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	width:270px;
+	font-size: 12px;
+	
+}
+.main .li .price{
+	height: 30px;	
+	width: 55px;
+	float: left;	
+	line-height: 30px;
+}
+
