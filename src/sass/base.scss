@@ -34,7 +34,7 @@ a {text-decoration:none; color: black; }
 .h-box{
 	height:125px;
 	width:100%;
-	background:light;
+	
 	margin-bottom:5px;
 }
 
@@ -55,14 +55,16 @@ a {text-decoration:none; color: black; }
 .h-box .header .left h1{
 	width: 160px;
 	height: 125px;
-	
+	padding-top:25px;
 	box-sizing: border-box;
 	float: left;
+
 }
 .h-box .header .left h1 a{
 	display: block;
 	width: 160px;
 	height: 90px;
+
 	text-decoration: none;
 	background: url(../images/logo.png) no-repeat center center;
 	text-align: center;

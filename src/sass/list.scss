@@ -57,4 +57,21 @@
 	float: left;	
 	line-height: 30px;
 }
+.main .li .add{
+	height: 55px;
+	width:  325px;
+	text-align: center;
+	line-height: 50px;
+	font-size:16px;
+	background: #6dc4df;
+	color: orange;
+	opacity: 0.3;
+	
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
 
+}
+.main .li .add:hover{
+	opacity: 1;
+}

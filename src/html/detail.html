@@ -8,15 +8,83 @@
 
 	<script src="/lib/requirejs/require.js" data-main="/js/detail"></script>
 
+	<script src="/lib/jquery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="/lib/zoom/css/tiksluslens.css"></script>
+	<script type="text/javascript" src="/lib/zoom/js/tiksluslens.min.js"></script>
 </head>
 <body>
 	<div class="header"></div>
 
 	<div class="main">
-			
+		<div class="topbox">
+			<div class="left">
+			<div id="example3">
+				<img src="/images/small.jpg" data-big-image="/big.jpg" class="tiksluslens">
+			</div>
+
+
+
+			</div>		
+			<div class="right">
+
+				<div class="xzqh">
+
+					<span>配送至：</span><select id="province"></select>
+					<select id="city"></select>
+					<select id="district"></select>
+				</div>
+				<div class="xinxi">
+					
+
+				</div>
+
+				</div>
+		</div>
+
+		
+
 
 
 	</div>
+<!-- 右边图片	 -->
+<!-- <script type="text/html" id="products_template">
+		{{each products as product}}
+		<div class="li1">
+			<div class="id" style="display: none">{{product.id}}</div>
+			<div class="title">{{product.title}}</div>
+			<div class="img"><img src="{{product.img}}"></div>		
+						
+		</div>
+		{{/each}}
+	</script> -->
+
+<!-- 左边的xinxi -->
+<script type="text/html" id="element_template">
+		{{each elements as element}}
+		<div class="li2">
+			<div class="id" style="display: none;">{{element.id}}</div>
+			<div class="title">{{element.title}}</div><br/>
+			<div class="price">{{element.price}}</div><br/>
+			<div class="shoucan">收藏</div><br/>
+			<div class="add">加入购物车</div>
+		</div>
+		{{/each}}
+	</script>
+
+
+	<!-- 行政区划分 -->
+
+	<script>
+		
+	</script>
+
+
+
+
+
+
+
+
 
 
 
