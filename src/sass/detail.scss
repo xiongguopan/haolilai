@@ -1,0 +1,25 @@
+.main{
+	width: 996px;
+	min-height: 200px;
+	border: 1px solid red;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	
+
+	.left{
+		width:496px;
+		height: 485px;
+		float: left;
+	}
+	
+	.right{
+		width:500px;
+		height: 485px;
+		float: left;
+		background: pink;
+	}
+
+
+
+
+}

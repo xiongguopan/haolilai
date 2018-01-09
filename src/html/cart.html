@@ -2,19 +2,44 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>登陆</title>
+	<title>购物车</title>
+
 	<link rel="stylesheet" type="text/css" href="/css/base.css">
-	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/login.css">
+	<link rel="stylesheet" type="text/css" href="/css/cart.css">
+	<script type="text/javascript" src="/lib/requirejs/require.js" data-main = "/js/cart"></script>
+	
 </head>
 <body>
 	<div class="header"></div>
 
 	<div class="main">
-		
+
+		<fieldset style="width: 996px;border: none;border-top: 1px dashed #adadad ; text-align: center; ">
+			<legend style="font-size: 20px; color: #adadad;">购物车</legend>
+		</fieldset>
+
+		<div class="cart_title">
+			<div><label><input type="checkbox" class="ck_all">全选</label></div>	
+			<div class="img">图像</div>
+			<div class="title">标题</div>
+			<div class="price">价格</div>
+			<div class="amount">数量</div>
+			<div class="sub">小计</div>
+			<div class="oper">操作</div>
+		</div>
+		<div class="cart_body">
+			
+		</div>
+		<div class="total">
+			合计：<span class="money">0.00</span> 元
+		</div>	
+
+
+
+
 	</div>
 
 	<div class="footer"></div>
-	<script src="/lib/requirejs/require.js" data-main="/js/list"></script>
+	
 </body>
 </html>
