@@ -1,5 +1,5 @@
 require(["config"], function(){
-	require(["jquery", "template", "zoom","cookie","load"], function($,template){
+	require(["jquery", "template", "zoom" ,"cookie","load"], function($,template){
 		
 	// 配置 cookie 插件的 json 数据自动转换
 	$.cookie.json = true;
@@ -30,12 +30,15 @@ require(["config"], function(){
 					<div class="id" style="display:none">${element.id}</div>
 					<div class="title">${element.title}</div>
 					
-					<div class="price">${element.price}</div>
+					<div class="price">价格：${element.price}元</div>
 					
-					<p>配送至:</p>
+					<p>配送至:
 					 	<select id="province"></select>
 						<select id="city"></select>
 						<select id="district"></select>
+						</p>
+					<p>详细地址：<input type="text" style="width:300px;border:none;" />
+					</p>
 				</div>`
 			});
 	//渲染到界面
@@ -142,6 +145,8 @@ require(["config"], function(){
 			});
 		});  // 配送地址的结束标签
 
+
+		
 
 
 	});
