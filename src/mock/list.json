@@ -11,7 +11,7 @@
 
 			{"id":2, "img":"http://www.holiland.com/images/201512/goods_img/6_G_1450909022254.jpg" ,
 			"title":"榴莲之恋",
-			"dd" : "蛋糕装饰花瓣为可食用巧克力花瓣" ,
+			"dd" : "浓香芝士与榴莲的碰撞" ,
 			"price":299.00
 			},
 
@@ -29,13 +29,13 @@
 
 			{"id":5, "img":"http://www.holiland.com/images/201512/goods_img/38_G_1450854547023.jpg" ,
 			"title":"相思树1",
-			"dd" : "LOVERS’ TREE" ,
+			"dd" : "LOVERS’ TREE " ,
 			"price":299.00
 			},
 
 			{"id":6, "img":"http://www.holiland.com/images/201512/goods_img/38_G_1450854547023.jpg" ,
 			"title":"相思树2",
-			"dd" : "LOVERS’ TREE" ,
+			"dd" : "love for tree" ,
 			"price":599.00
 			},
 

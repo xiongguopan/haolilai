@@ -5,18 +5,26 @@
 	margin: 0 auto;
 	margin-bottom: 10px;
 	overflow: hidden;
-	
+	/*background:#6dc4df ;*/
+	.top_box{
+		min-height: 300px;
+		.pic_box{
+			text-align: center;
+			width: 450px;
+			height: 450px;
+			float: left;
+			border: 1px solid red;
+			.pic{
+				border: 1px solid;
+			}
+		}
+		.right_box{
+			height: 450px;
+			width: 1259-450px;
+			border: 1px solid;
+			float: left;
+		}
+	}	
 		
-		/*.price{
-					font-size: 16px;
-					color: white;
-					width: 400px;
-					height: 40px;
-					line-height: 30px;
-					background:#6dc4df ;
-					text-align: center;
-					margin-bottom: 10px;
-					
-				}*/
 				
 }

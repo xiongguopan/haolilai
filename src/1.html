@@ -2,25 +2,95 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>11</title>
+	<style>
+		.big{
+			width: 485px;
+			float: left;
+			height: 125px;
+			box-sizing: border-box;
+			padding-top: 35px;
+			margin: 50 auto;
+		    }
+		.big div{
+			float: left;
+			width: 160px;
+			font-size: 16px;
+			color: #6dc4df;
+			box-sizing: border-box;
+			padding: 0px 35px;
+			margin-top: 20px;
+			}
+		.big div a{
+			color: #6dc4df;
+			text-decoration: none;
+		}
+		.big div:first-child{
+			border-right: 1px solid #6dc4df;
+		}
+		.big div:last-child{
+			border-left: 1px solid #6dc4df;
+		}
+		.big .lis{
+			position: relative;
+		}
+		.big .lis .ul1{
+			display: none;
+			width: 160px;
+			font-size: 14px;
+			color: #6dc4df;
+			height: 217px;
+			position: absolute;
+			top: 25px;
+			left:-45px;
+			border: 1px solid red;
+		}
+		.big .lis .ul1 li{
+			float: left;
+			width: 160px;
+			list-style: none;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			margin-bottom: 1px;
 
+		}
+		.big .lis:hover .ul1{
+			display: block;
+		}
+      .big .lis .ul1 li a{
+      	   font-size: 14px;
+			color: #6dc4df;
+      }
+    
 
-	<link rel="stylesheet" type="text/css" href="/css/base.css">
-
-	<script type="text/javascript" src="/lib/requirejs/require.js"></script>
+	</style>
 </head>
 <body>
-	
-<div class="header">
-	
-</div>
-<div class="main">
-	
-</div>
-<div class="footer">
-	
+
+
+<div class="big">
+	<div><a href="/html/list.html">All product<br/><span>所有产品</span></a></div>
+	<div class="lis"><a href="#"> Cake Serise<br/><span>蛋糕系列</span>
+		<ul class="ul1">
+				    <li><a href="#">经典系列</a></li>
+					<li><a href="#">法式系列</a></li>
+					<li><a href="#">儿童系列</a></li>
+					<li><a href="#">冰激凌系列</a></li>
+					<li><a href="#">珍爱系列</a></li>
+					<li><a href="#">宠爱系列</a></li>
+					<li><a href="#">尊爱系列</a></li>
+		 </ul> 
+	</div>
+	<div><a href="/html/cake.html">Wagashi<br/><span>零食糕点</span></a></div>
+
+
+
 </div>
 
 
+
+
+	
 </body>
 </html>

@@ -5,14 +5,17 @@
 		"data" : [
 			
 			{
-				"id" :1,
-				"title" : "玫瑰花园",
-				"img" :"http://www.holiland.com/images/201603/goods_img/74_G_1456910476639.jpg"
+				"id":1,
+				"price":299.00, 
+				 "title":"玫瑰花园  蛋糕周围装饰花瓣为可食用巧克力花瓣",
+				 "img":"/images/1-0-m.png",
+				 "big_img": "/images/1-0-b.jpg"  ,
+				 "s_img":"/images/1-0-s.png"  ,
+				 "img2":"/images/1-1-m.jpg",
+				 "big_img2":"/images/1-1-b.jpg",
+				 "s_img2":"/images/1-1-s.jpg"
 			}
-
-		],
-
-		
+					
 
 		]
 	}

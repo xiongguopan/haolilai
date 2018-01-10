@@ -1,19 +1,74 @@
 require(["config"], function(){
-	require(["jquery", "template", "load"], function($, template){
-		//异步加载列表页面数据，使用模板引擎渲染
-		$.getJSON("/mock/detail.json", function(data){
-			// 左边准备渲染数据
-			var renderData = {elements : data.res_body.data};
-			console.log(renderData);
-			// 渲染数据
-			var html = template("element_template", renderData);
-			//console.log(html);
-			$(".left").html(html);
+	require(["jquery", "template", "zoom","cookie","load"], function($,template){
+		
+	// 配置 cookie 插件的 json 数据自动转换
+	$.cookie.json = true;
 
-			
+	//加载相应商品的数据
+	//从cookie里面拿到传过来的id
+	var contrast = $.cookie("id"); 
+	
+	$.getJSON("/mock/detail.json",function(data){
+		 let contrastData = data.res_body.data;
+		 //定义一个数组来存放json里面的id
+		 let arr=[],
+			  xb=0;
+	$.each(contrastData,function( index ,elements){
+		arr.push(`${elements.id}`);
+	})		  
+	xb = $.inArray(contrast,arr);
+	let cData = {products : data.res_body.data};
 
-// 获取行政区域
-	$(function(){
+	var array =[];
+	//获取下标对应的数据
+	array.push(cData.products[xb])
+
+	var html = "";
+	//定义模板	
+	$.each(array, function(index, element){
+				html = `<div class="box">
+					<div class="id" style="display:none">${element.id}</div>
+					<div class="title">${element.title}</div>
+					
+					<div class="price">${element.price}</div>
+					
+					<p>配送至:</p>
+					 	<select id="province"></select>
+						<select id="city"></select>
+						<select id="district"></select>
+				</div>`
+			});
+	//渲染到界面
+	$(".mb_box").html(html);
+
+    var pic = "";
+    $.each(array, function(index, e){
+				pic = `<div id="imgwrapper"> 
+    					<img id="zoom_03" src="${e.img}" data-zoom-image="${e.big_img}"/> 
+					</div> 
+					<div id="pics"> 
+    					<a href="http://www.sucaihuo.com/js" data-image="${e.img}" data-zoom-image="${e.big_img}"> 
+        				<img  src="${e.s_img}" />
+    					</a> 
+ 
+    					<a href="#" data-image="${e.img2}" data-zoom-image="${e.big_img2}"> 
+        				<img  src="${e.s_img2}" /> 
+   						</a> 
+					</div>`
+			});
+    		//渲染
+			$(".pic_box").html(pic); 
+			//缩略图部分
+			$("#zoom_03").elevateZoom({ 
+    			gallery: 'pics', //缩略图id 
+    			lensColour: '#fede4f', //放大镜背景颜色 
+   				cursor: 'move', //悬浮在放大镜鼠标形状 
+    			borderSize: '1', //右侧放大镜边框尺寸 
+    			borderColour: '#6dc4df' //右侧放大镜边框颜色 
+			});		
+
+			//加载配送地址
+		$(function(){
 			// 加载省份
 			function loadProvince() {
 				var url1 = "http://route.showapi.com/1149-1?showapi_appid=29550&showapi_sign=08402fce064a484baad949d9a18f75e7&level=1&page=1",
@@ -85,24 +140,12 @@ require(["config"], function(){
 				$("#district").html(`<option>请选择区县</option>`);
 				loadDistrict();
 			});
-		});  // 行政区域的结束标签
-	
-		
+		});  // 配送地址的结束标签
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+	});
+			
 
 		});
 	});
-});
