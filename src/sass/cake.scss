@@ -1,0 +1,89 @@
+.main{
+
+	min-height: 500px;
+	width: 996px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	//border: 1px solid red;
+	overflow: hidden;
+
+	.li{
+		width: 325px;
+		height: 325px;
+		font-size: 14px;
+		float: left;
+		margin-bottom: 10px;
+		margin-right: 7px;
+		overflow: hidden;
+		position: relative;
+			
+			div {
+				background-color:#6dc4df;
+				font-size: 12px;
+				color: white;
+				
+					}
+			.img{
+				width: 325px;
+				height: 270px;
+				overflow: hidden;				
+				}
+			.img:hover img{
+
+				transform: scale(1.1);
+	
+				}
+			.title{
+				height: 25px;
+				line-height: 25px;
+				width: 325px;
+				
+				}
+
+			.dd{
+
+				height: 30px;
+				line-height: 30px;
+				float: left;
+				width:270px;
+				font-size: 12px;
+	
+				}
+
+			.price{
+				height: 30px;	
+				width: 55px;
+				float: left;	
+				line-height: 30px;
+			     }
+
+			.add{
+				height: 55px;
+				width:  325px;
+				text-align: center;
+				line-height: 50px;
+				font-size:16px;
+				background: #6dc4df;
+				color: orange;
+				opacity: 0.3;
+				
+				position: absolute;
+				left: 0px;
+				bottom: 0px;
+				
+				
+				}
+			.add:hover{
+					opacity: 1;
+					}
+
+
+	
+		}
+
+
+
+
+
+
+}

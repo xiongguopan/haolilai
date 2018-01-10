@@ -3,23 +3,14 @@ require(["config"], function(){
 		//异步加载列表页面数据，使用模板引擎渲染
 		$.getJSON("/mock/detail.json", function(data){
 			// 左边准备渲染数据
-			var renderData = {products : data.res_body.data};
+			var renderData = {elements : data.res_body.data};
 			console.log(renderData);
 			// 渲染数据
-			var html = template("list_template", renderData);
+			var html = template("element_template", renderData);
 			//console.log(html);
 			$(".left").html(html);
 
-			// 右边准备渲染数据
-			var xinxData = {elements : data.res_body.xinxi};
-			//console.log(xinxData);
-			// 渲染数据
-			var html = template("element_template", xinxData);
-			//console.log(html);
-			$(".xinxi").html(html);
-
-
-
+			
 
 // 获取行政区域
 	$(function(){
@@ -94,9 +85,9 @@ require(["config"], function(){
 				$("#district").html(`<option>请选择区县</option>`);
 				loadDistrict();
 			});
-		});
+		});  // 行政区域的结束标签
 	
-
+		
 
 
 

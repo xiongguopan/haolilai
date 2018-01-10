@@ -2,24 +2,17 @@
 	"res_code" : 0,
 	"res_error" : "",
 	"res_body" : {
-		// "data" : [
+		"data" : [
 			
-		// 	{
-		// 		"id" :1,
-		// 		"title" : "玫瑰花园",
-		// 		"img" :"http://www.holiland.com/images/201603/goods_img/74_G_1456910476639.jpg"
-		// 	}
-
-		// ],
-
-		"xinxi":[
 			{
 				"id" :1,
-				"title" : "蛋糕周围装饰花瓣为可食用巧克力花瓣",
-				"price" : 299.00
-
+				"title" : "玫瑰花园",
+				"img" :"http://www.holiland.com/images/201603/goods_img/74_G_1456910476639.jpg"
 			}
 
+		],
+
+		
 
 		]
 	}

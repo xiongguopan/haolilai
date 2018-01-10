@@ -6,88 +6,8 @@
 	margin-bottom: 10px;
 	overflow: hidden;
 	
-
-	.topbox{
-
-		.left{
-			width:496px;
-			height: 485px;
-			float: left;
-			box-sizing: border-box;
-			border: 1px solid ;
-			padding: 5px;
 		
-			.title{
-				width:476px;
-				height: 30px;
-				float: left;
-				font-size: 16px;
-				line-height: 30px;
-				text-align: center;
-				color: #6dc4df;
-			}
-			.img{
-				width: 476px;
-				height: 440px;
-				float: left;
-			}	
-
-		
-	}
-	
-	.right{
-		width:495px;
-		height: 485px;
-		float: left;
-		margin-top: 50px;
-		/*background: pink;*/
-		text-align: center;
-		
-		
-
-		.xzqh{
-			width:495px;
-			height: 25px;
-			box-sizing: border-box;
-			margin-top:50px;
-			
-			span{
-				height: 25px;
-				width: 30px;
-				font-size: 16px;
-				color:#6dc4df;				
-			}
-			select{
-				height: 25px;
-				border: 1px solid #6dc4df;
-				margin-right: 5px;
-					}
-
-		}
-		
-		.xinxi{
-			height: 400px;
-			width: 495px;
-			padding:0 30px;
-			margin-top: 50px;
-
-			.li2{
-				height: 300px;
-				width: 400px;
-				text-align: center;
-
-				.title{
-					font-size: 18px;
-					color: white;
-					width: 400px;
-					height: 40px;
-					line-height: 20px;
-					background:#6dc4df ;
-					margin-bottom: 10px;
-
-
-				}
-				.price{
+		/*.price{
 					font-size: 16px;
 					color: white;
 					width: 400px;
@@ -97,37 +17,6 @@
 					text-align: center;
 					margin-bottom: 10px;
 					
-				}
+				}*/
 				
-
-			}
-
-		}
-		.shoucan{
-					font-size: 16px;
-					color: white;
-					width: 400px;
-					height: 40px;
-					background:#6dc4df ;
-					text-align: center;
-					line-height: 30px;
-					margin-bottom: 10px;
-				}
-				.add{
-					font-size: 16px;
-					color: white;
-					width: 400px;
-					height: 40px;
-					line-height: 30px;
-					background:#6dc4df ;
-					text-align: center;
-					
-				}
-
-	}
- }
-
-
-
-
 }

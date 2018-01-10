@@ -1,11 +1,14 @@
 require(["config"], function(){
-	require(["load"], function(){
-		$(function(){
+	require(["jquery","template","load"], function($,template){
+		//$(function(){
 	// cookie 配置
 	$.cookie.json = true;
 
 	// 读取cookie 中保存的购物车数据
 	var _products = $.cookie("products") || [];
+
+	console.log(_products);
+
 	// 判断
 	if (_products.length === 0) { // 购物车为空
 		$(".cart_body").html(`购物车为空，请<a href="list.html">选购商品</a>`);
@@ -15,6 +18,7 @@ require(["config"], function(){
 	/* 将购物车中保存的商品渲染显示到页面中 */
 	var html = template("cart_template", {products: _products});
 	$(".cart_body").html(html);
+
 
 	/************************************************************/
 	// 查找 id 所表示的商品在 products 中位置
@@ -136,7 +140,7 @@ require(["config"], function(){
 		});
 		$(".total .money").text(sum.toFixed(2));
 	}
-});
+ //});
 
 
 

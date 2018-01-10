@@ -1,13 +1,13 @@
 require(["config"], function(){
 	
-	require(["jquery", "template", "fly","load"], function($, template){
+	require(["jquery", "template", "load"], function($, template){
 		//异步加载列表页面数据，使用模板引擎渲染
-		$.getJSON("/mock/list.json", function(data){
+		$.getJSON("/mock/cake.json", function(data){
 			// 准备渲染数据
 			var renderData = {products : data.res_body.data};
 			//console.log(renderData);
 			// 渲染数据
-			var html = template("list_template", renderData);
+			var html = template("cake_template", renderData);
 			//console.log(html);
 			$(".main").html(html);
 			

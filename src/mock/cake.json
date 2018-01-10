@@ -33,62 +33,44 @@
 			"price":299.00
 			},
 
-			{"id":6, "img":"http://www.holiland.com/images/201512/goods_img/38_G_1450854547023.jpg" ,
-			"title":"相思树2",
-			"dd" : "LOVERS’ TREE" ,
-			"price":599.00
-			},
-
-			{"id":7, "img":"http://www.holiland.com/images/201512/goods_img/37_G_1450854362849.jpg" ,
+			
+			{"id":6, "img":"http://www.holiland.com/images/201512/goods_img/37_G_1450854362849.jpg" ,
 			"title":"晨曦",
 			"dd" : "MORNING LIGHT" ,
-			"price":299.00
+			"price":799.00
 			},
 
-			{"id":8, "img":"http://www.holiland.com/images/201512/goods_img/36_G_1450854138096.jpg" ,
+			{"id":7, "img":"http://www.holiland.com/images/201512/goods_img/36_G_1450854138096.jpg" ,
 			"title":"夜礼服",
 			"dd" : "EVENING GOWN" ,
 			"price":299.00
 			},
 
-			{"id":9, "img":"http://www.holiland.com/images/201512/goods_img/35_G_1450853881149.jpg" ,
+			{"id":8, "img":"http://www.holiland.com/images/201512/goods_img/35_G_1450853881149.jpg" ,
 			"title":"冰雪之翼",
 			"dd" : "WINGS OF ICE AND SNOW" ,
 			"price":299.00
 			},
 
-			{"id":10, "img":"http://www.holiland.com/images/201603/goods_img/33_G_1456982364820.jpg" ,
+			{"id":9, "img":"http://www.holiland.com/images/201603/goods_img/33_G_1456982364820.jpg" ,
 			"title":"密林榛果",
 			"dd" : "HAZELNUT FOREST" ,
 			"price":299.00
 			},
 
-			{"id":11, "img":"http://www.holiland.com/images/201603/goods_img/32_G_1456985936539.jpg" ,
+			{"id":10, "img":"http://www.holiland.com/images/201603/goods_img/32_G_1456985936539.jpg" ,
 			"title":"魔法木屋",
 			"dd" : "MAGICAL WOODEEN HOUSE" ,
 			"price":299.00
 			},
 
-			{"id":12, "img":"http://www.holiland.com/images/201603/goods_img/30_G_1456982052303.jpg" ,
+			{"id":11, "img":"http://www.holiland.com/images/201603/goods_img/30_G_1456982052303.jpg" ,
 			"title":"芒果列车",
 			"dd" : "MANGO TRAIN" ,
 			"price":299.00
 			},
 
-			{"id":13, "img":"http://www.holiland.com/images/201512/goods_img/35_G_1450853881149.jpg" ,
-			"title":"冰雪之翼",
-			"dd" : "WINGS OF ICE AND SNOW" ,
-			"price":299.00
-			},
-
-			{"id":14, "img":"http://www.holiland.com/images/201603/goods_img/33_G_1456982364820.jpg" ,
-			"title":"密林榛果",
-			"dd" : "HAZELNUT FOREST" ,
-			"price":299.00
-			},
-
-			
-			{"id":15, "img":"http://www.holiland.com/images/201603/goods_img/78_G_1457044972677.jpg" ,
+			{"id":12, "img":"http://www.holiland.com/images/201603/goods_img/78_G_1457044972677.jpg" ,
 			"title":"玫瑰之爱",
 			"dd" : "蛋糕装饰花瓣为可食用巧克力花瓣" ,
 			"price":299.00
