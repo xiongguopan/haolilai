@@ -47,27 +47,7 @@ require(["config"], function(){
 		}
 		// 将数组存回 cookie 中
 		$.cookie("products", _products, {expires:7, path:"/"});
-
-
-
-
-
-
-		//加入购物车成功的抛物线效果 
-		// var flyer = $(`<img src="${_box.children(".img").attr("src")}">`);
-		// flyer.fly({
-		// 	start:{
-		// 		left : event.pageX,
-		// 		top : event.pageY
-		// 	},
-		// 	end:{
-		// 		left : $(".cart").offset().left,
-		// 		top : $(".cart").offset().top,
-		// 		width: 0,
-		// 		height: 0
-		// 	}
-		// });
-		
+	
 
 	});
 
@@ -86,6 +66,25 @@ require(["config"], function(){
 		return idx;
 	}
 		
+
+
+
+		// 点击图片跳转到详情界面
+		
+    $(".li").delegate(".img", "click", function(event){
+				var _box = $(this).parent();
+				var ID = _box.children(".id").text();
+				$.cookie("id", ID, {expires:7, path:"/"});
+				location="/html/detail.html";
+			
+		});//$(".li").delegate的结束标签
+
+
+
+
+
+
+
 		});
 	});
 
